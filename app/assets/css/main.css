@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-inter bg-black-bg-principal text-white;
+}
+
+.md-section h3 {
+  @apply text-4xl py-4 text-white;
+}
+.md-section h4 {
+  @apply text-3xl py-4 text-white;
+}
+.md-section h5 {
+  @apply text-2xl py-6 text-white;
+}
+.md-section h6 {
+  @apply text-xl py-4 text-white;
+}
+
+.md-section ul li {
+  @apply list-disc ml-4 text-sm text-gray-text;
+}
+
+.md-section ol li {
+  @apply list-decimal ml-4 text-sm text-gray-text;
+}
+
+.md-section p {
+  @apply text-sm text-gray-text;
+}
+
+@layer utilities {
+  .font-opsz-50 {
+    font-variation-settings: "opsz" 50;
+  }
+}
