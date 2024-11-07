@@ -1,6 +1,9 @@
 <template>
   <section class="col-start-2 col-end-6 row-start-2 min-w-[1280px]">
-    <blog-main-publication-section-item />
+    <blog-main-publication-section-item
+      v-for="eventItem in eventData"
+      :key="eventItem.id"
+    />
   </section>
 </template>
 

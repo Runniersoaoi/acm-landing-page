@@ -23,7 +23,7 @@
             </NuxtLink> -->
             <NuxtLink to="/home">Inicio</NuxtLink>
 
-            <NuxtLink to="/blog">Blog</NuxtLink>
+            <!-- <NuxtLink to="/blog">Blog</NuxtLink> -->
             <NuxtLink to="/comunity">Comunidad</NuxtLink>
             <NuxtLink to="/events">Eventos</NuxtLink>
             <NuxtLink to="/about">Sobre nosotros</NuxtLink>
