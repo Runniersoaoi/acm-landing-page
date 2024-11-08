@@ -1,6 +1,6 @@
 <template>
   <section
-    class="col-start-2 col-end-6 row-start-2 min-w-[1280px] grid grid-cols-4 pt-10 border-b border-gray-border gap-10"
+    class="col-start-2 col-end-6 row-start-2 pb-4 min-w-[1280px] grid grid-cols-4 pt-10 border-b border-gray-border gap-10"
   >
     <div class="col-span-3">
       <h2 class="text-5xl pb-4 text-blue-gradient-one font-semibold">
@@ -11,7 +11,7 @@
       </p>
     </div>
     <div
-      class="bg-gray-principal p-4 rounded-md border-gray-border border h-1/2"
+      class="bg-gray-principal p-4 rounded-md border-gray-border border h-40"
     >
       <div class="border-b border-gray-border">
         <p class="text-lg text-gray-text font-semibold pb-2">Fecha limite</p>

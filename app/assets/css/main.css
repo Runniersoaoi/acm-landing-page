@@ -15,10 +15,10 @@ body {
   @apply text-3xl py-4 text-white;
 }
 .md-section h5 {
-  @apply text-2xl py-6 text-white;
+  @apply text-2xl pb-3 text-white;
 }
 .md-section h6 {
-  @apply text-xl py-4 text-white;
+  @apply text-xl pb-2 pt-4 text-white;
 }
 
 .md-section ul li {

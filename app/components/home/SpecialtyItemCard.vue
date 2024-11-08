@@ -1,8 +1,8 @@
 <template>
   <div
-    class="flex gap-4 col-span-2 bg-gray-principal rounded-lg p-8 border-gray-border border-[.0625rem]"
+    class="flex justify-between gap-4 col-span-2 bg-gray-principal rounded-lg p-8 border-gray-border border-[.0625rem]"
   >
-    <div>
+    <div class="min-w-[280px]">
       <div class="bg-blue-gradient-one p-2 rounded-md inline-block mb-2">
         <Icon
           :icon="`lucide:${props.specialtieLogo}`"
